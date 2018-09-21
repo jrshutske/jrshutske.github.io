@@ -1,18 +1,10 @@
 <section class="footer">
     <footer>
-        <div class = "footer_div">  
+        <div class = "footer_div">
         <nav class="cover-navigation navigation--social">
           <ul class="navigation">
 
-          {% if site.social.weibo %}
-          <!-- Weibo -->
-          <li class="navigation__item_social">
-            <a href="http://weibo.com/{{site.social.weibo}}" title="@{{site.social.weibo}} 的微博" target="_blank">
-              <i class='social fa fa-weibo fa-2x'></i>
-              <span class="label">Weibo</span>
-            </a>
-          </li>
-          {% endif %}
+
 
           {% if site.social.github %}
           <!-- Github -->
@@ -23,26 +15,9 @@
             </a>
           </li>
           {% endif %}
-          
-          {% if site.social.twitter %}
-          <!-- Twitter -->
-          <li class="navigation__item_social">
-            <a href="http://twitter.com/{{site.social.twitter}}" title="@{{site.social.twitter}}" target="_blank">
-              <i class='social fa fa-twitter fa-2x'></i>
-              <span class="label">Twitter</span>
-            </a>
-          </li>
-          {% endif %}
 
-          {% if site.social.gplus %}
-          <!-- Google Plus -->
-          <li class="navigation__item_social">
-            <a href="https://plus.google.com/{{site.social.gplus}}" rel="author" title="Google+" target="_blank">
-              <i class='social fa fa-google-plus-square fa-2x'></i>
-              <span class="label">Google Plus</span>
-            </a>
-          </li>
-          {% endif %}
+
+
 
           <!-- RSS -->
           <li class="navigation__item_social">
@@ -67,9 +42,9 @@
 
         </div>
 
-        <div class = "footer_div">  
+        <div class = "footer_div">
            <p class="copyright text-muted">
-            Copyright &copy; {{ site.title }} {{ site.time | date: '%Y' }} Theme by <a href="http://baixin.io/">leopardpan</a> |
+            Copyright &copy; {{ site.time | date: '%Y' }} Theme by <a style="text-decoration: none;" href="http://baixin.io/">leopardpan</a> |
             <iframe
                 style="margin-left: 2px; margin-bottom:-5px;"
                 frameborder="0" scrolling="0" width="91px" height="20px"
@@ -77,15 +52,14 @@
             </iframe>
             </p>
         	<div align="right">
-    			<link rel="stylesheet" href="//cdn.bootcss.com/font-awesome/4.3.0/css/font-awesome.min.css">
 
-          <!-- 访问统计 -->
-          <span id="busuanzi_container_site_pv">
-            本站总访问量
-            <span id="busuanzi_value_site_pv"></span>次
+
+          <span>
+            Last Modified: {{ site.modified }}
           </span>
 
         </div>
-        <div>
+      </div>
+
     </footer>
 </section>
