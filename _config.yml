@@ -7,8 +7,8 @@ avatarDesc: software developer
 url: "http://jrshutske.github.io"
 modified: 2018-09-20
 
-comment:
-    disqus:
+
+
 social:
     github: jrshutske
     mail: jackshutske@gmail.com
@@ -22,9 +22,12 @@ textColor: #FF0000
 # supported colors: blue, green, purple, red, orange or slate. If you need clear, leave it empty.
 cover_color: clear
 
+blog_button:
+    title: blog
+
 # Navigation buttons in the front page.s
 nav:
-    - {title: blog, description: blog, url: '/#blog'}
+    
     - {title: archive, description: archive, url: '/archive'}
     - {title: tags, description: tags, url: '/tags'}
     - {title: about, description: about, url: '/about'}
