@@ -24,13 +24,13 @@
             </a>
         </div>
         <!-- 头像效果-end -->
-        <h1 class="panel-cover__title panel-title"><a href="/#blog" title="link to homepage for {{ site.title }}" class="blog-button">{{ site.title }}</a></h1>
+        <h1 class="panel-cover__title panel-title"><span>{{ site.title }}</span></h1>
         {% if site.subtitle %}
         <span class="panel-cover__subtitle panel-subtitle">{{site.subtitle}}</span>
         {% endif %}
-        <hr class="panel-cover__divider" />
-        <p class="panel-cover__description">{{ site.description }}</p>
         <hr class="panel-cover__divider panel-cover__divider--secondary" />
+        <p class="panel-cover__description">{{ site.description }}</p>
+        <hr class="panel-cover__divider " />
 
         {% if site.welcome_message %}
         <p class="panel-cover__description">{{ site.welcome_message }}</p>
